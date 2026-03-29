@@ -83,7 +83,7 @@ API_LIMIT = timedelta(days=30)
 APP_HOMEPAGE = "https://github.com/AndrewKvalheim/office-hours"
 APP_NAME = "office-hours"
 APP_NAMESPACE = "office-hours.andrew.kvalhe.im"
-APP_VERSION = "0.0.0"
+APP_VERSION = "1.0.0"
 OK_DURATION_MIN = timedelta(hours=1)
 OK_HEIGHT_MIN = 1.0  # m
 OK_RATE_MIN = 0.2  # m/h
