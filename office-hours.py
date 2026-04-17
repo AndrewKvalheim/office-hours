@@ -43,6 +43,8 @@ from zoneinfo import ZoneInfo
 # Utilities
 #
 
+TZ_ABBR_TO_ID = {"PDT": "America/Los_Angeles", "PST": "America/Los_Angeles"}
+
 
 class CachedLimiterSession(CacheMixin, LimiterMixin, Session):
     """
@@ -87,7 +89,6 @@ APP_VERSION = "1.0.0"
 OK_DURATION_MIN = timedelta(hours=1)
 OK_HEIGHT_MIN = 1.0  # m
 OK_RATE_MIN = 0.2  # m/h
-TZ_ABBR_TO_ID = {"PDT": "America/Los_Angeles", "PST": "America/Los_Angeles"}
 
 #
 # Global objects
